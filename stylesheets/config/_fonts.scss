@@ -7,7 +7,7 @@ $headers-font: "Nunito", "Helvetica", "sans-serif";
 
 
 p, a {
-  font-size: clamp(14px, 2vw, 25px);
+  font-size: clamp(14px, 2vw, 18px);
   font-family: $body-font;
   font-weight: normal;
   color: $font-color-primary;
@@ -24,6 +24,12 @@ h3 {
 
 h2 {
   font-size: clamp(35px, 5vw, 55px);
+}
+
+h1 {
+  font-family: $headers-font;
+  font-size: clamp(40px, 6vw, 65px);
+  letter-spacing: 0.02em;
 }
 // To use a font file (.woff) uncomment following lines
 // @font-face {

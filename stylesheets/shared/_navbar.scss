@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #e7e6e6;
+  height: 14vh;
+  z-index: 100;
   &__logo {
     img {
       height: 120px;
@@ -13,7 +15,7 @@
     display: flex;
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 3vmin 0;
   }
 }
 
