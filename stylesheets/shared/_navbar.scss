@@ -77,7 +77,8 @@
     position: absolute;
     height: 3px;
     width: 40px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px black;
     border-radius: 8px;
     transition: $basic-transition;
     will-change: transform;
@@ -97,6 +98,9 @@
 @media (max-width: 768px) {
   .navbar-deSerie__burger {
     display: block;
+    position: fixed;
+    top: 5vmin;
+    left: 85vw;
   }
   .navbar-deSerie__link a {
     font-size: clamp(24px, 4vw, 45px);
